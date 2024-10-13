@@ -1,0 +1,45 @@
+.user-form {
+    max-width: 600px; /* Max width for the form */
+    margin: 20px auto; /* Center the form on the page */
+    padding: 20px; /* Inner padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #F8EDE3; 
+  }
+  
+  .user-form h2 {
+    text-align: center; /* Centered title */
+    margin-bottom: 20px; /* Space below the title */
+    color: #333; /* Dark color for the title */
+  }
+  
+  .user-form input, .user-form textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Inner padding */
+    margin-bottom: 15px; /* Space between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+  }
+  
+  .user-form textarea {
+    resize: vertical; /* Allow vertical resizing only */
+  }
+  
+  .user-form button {
+    width: 100%; /* Full width */
+    padding: 12px; /* Inner padding */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #8D493A; /* Bootstrap primary color */
+    color: white; /* White text */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition effect */
+  }
+  
+  .user-form button:hover {
+    background-color: #D0B8A8; 
+    color: #8D493A; /* Darker shade on hover */
+  }
+  

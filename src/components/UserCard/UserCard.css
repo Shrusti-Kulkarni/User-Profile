@@ -1,0 +1,19 @@
+/* Add to your CSS file */
+.user-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px; /* Optional: round corners */
+  }
+  
+  .summary-btn { 
+    color: white; /* White text */
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .user-card button:hover {
+    background-color: #5a6268; /* Darker grey on hover */
+  }
+  

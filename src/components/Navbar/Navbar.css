@@ -1,0 +1,35 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Adjusted padding */
+  background-color: #DFD3C3; /* Light background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow */
+}
+
+.navbar-controls {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between controls */
+}
+
+.navbar input, .navbar select {
+  padding: 8px; /* Consistent padding */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.navbar button {
+  padding: 8px 12px; /* Button padding */
+  border: none;
+  border-radius: 4px;
+  background-color: #8D493A; /* Button color */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s; /* Smooth transition */
+}
+
+.navbar button:hover {
+  background-color: #0056b3; /* Darker on hover */
+}

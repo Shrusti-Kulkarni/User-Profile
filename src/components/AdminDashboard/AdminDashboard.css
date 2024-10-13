@@ -1,0 +1,88 @@
+
+.admin-actions {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+.admin-actions button {
+    background-color: #8D493A;
+    color: #fff;
+    border: none; 
+    margin-top: 10px;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+} 
+.admin-heading {
+    margin: 0; 
+    flex-grow: 1;
+    text-align: center; 
+}
+.admin-actions button:hover {
+    background-color: #D0B8A8; 
+    color: #8D493A; 
+}
+
+/* Table Styles */
+.admin-table {
+    width: calc(100% - 40px); 
+    margin: 20px auto;
+    padding: 0; 
+    font-size: 16px; 
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.admin-table th,
+.admin-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.admin-table th {
+    background-color: #D0B8A8; 
+    color: white; 
+}
+
+.admin-table tr:hover {
+    background-color: #f1f1f1; 
+}
+
+.admin-table button {
+    padding: 5px 10px; /* Padding for buttons */
+    border: none; /* Remove default border */
+    background-color: #8D493A;
+    color: white; /* White text */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-right: 5px; /* Space between buttons */
+}
+
+.admin-table button:hover {
+    background-color: #D0B8A8; 
+    color: #8D493A;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .admin-table {
+        font-size: 14px; /* Smaller font size on smaller screens */
+    }
+
+    .admin-table th,
+    .admin-table td {
+        padding: 10px 12px; /* Adjust padding for smaller screens */
+    }
+
+    .admin-actions {
+        flex-direction: column; /* Stack buttons on smaller screens */
+        align-items: flex-start; /* Align buttons to the left */
+    }
+
+    .admin-actions button {
+        margin: 5px 0; /* Space between stacked buttons */
+    }
+}

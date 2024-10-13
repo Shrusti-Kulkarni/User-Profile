@@ -1,0 +1,45 @@
+/* UserInfo.css */
+.user-info {
+    display: flex;
+    max-width: 800px;
+    margin: auto; /* Center horizontally */
+    margin-top: 100px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f7f9f2; /* Light background for the info side */
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for postcard effect */
+}
+
+.user-info-picture {
+    flex: 1;
+    display: flex; /* Use flex to center the image */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin-right: 20px;
+    background-color: #8D493A; /* Darker background for the image side */
+    border-radius: 8px; /* Match the overall border radius */
+}
+
+.user-info-picture img {
+    width: 200px; /* Fixed width for square shape */
+    height: 200px; /* Fixed height for square shape */
+    border-radius: 50%; /* Make it circular */
+}
+
+.user-info-details {
+    flex: 2;
+    background-color: #F7F9F2; /* Light color for the details side */
+    border-radius: 0 8px 8px 0; /* Rounded corners on the right */
+    padding: 20px; /* Inner padding for content */
+}
+
+.user-info-details h2 {
+    margin: 0 0 10px;
+    color: #8D493A; /* Dark text color for contrast */
+}
+
+.user-info-details p {
+    margin: 5px 0;
+    color: #333; /* Dark grey for body text */
+}
